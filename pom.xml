@@ -163,6 +163,7 @@
                                 </artifactItem>
                             </artifactItems>
                             <failOnMissingWebXml>false</failOnMissingWebXml>
+                            <webXml>WebContent\WEB-INF\web.xml</webXml>
                         </configuration>
                     </execution>
                 </executions>
@@ -170,5 +171,4 @@
 
         </plugins>
     </build>
-
 </project>
