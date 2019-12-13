@@ -131,6 +131,7 @@
                 <execution>
                     <phase>package</phase>
                     <configuration>
+                        <release>8</release>
                         <artifactItems>
                             <artifactItem>
                                 <groupId>com.github.Lizard1.DeathDeploy</groupId>
