@@ -3,6 +3,7 @@ package hibernate.service;
 import hibernate.dao.serv.AccountDao;
 import hibernate.service.serv.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

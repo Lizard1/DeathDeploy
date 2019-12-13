@@ -3,6 +3,7 @@ package hibernate.controller;
 import hibernate.service.AccountServiceImpl;
 import hibernate.service.serv.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,6 +18,7 @@ import java.util.List;
 public class AccountController {
 
     @Autowired
+    @Qualifier("accountServiceImpl")
     private AccountService accountService;
 
     @RequestMapping(value = "/account", method = RequestMethod.GET)

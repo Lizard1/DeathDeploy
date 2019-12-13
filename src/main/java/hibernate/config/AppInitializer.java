@@ -1,8 +1,5 @@
 package hibernate.config;
 
-import hibernate.service.AccountServiceImpl;
-import hibernate.service.serv.AccountService;
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -30,10 +27,5 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
         characterEncodingFilter.setEncoding("UTF-8");
         characterEncodingFilter.setForceEncoding(true);
         return new Filter[] {characterEncodingFilter};
-    }
-
-    @Bean
-    public AccountService getAccountService() {
-        return new AccountServiceImpl();
     }
 }
