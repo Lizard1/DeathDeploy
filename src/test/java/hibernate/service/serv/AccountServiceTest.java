@@ -125,7 +125,7 @@ public class AccountServiceTest {
     }
 
 
-    @Test
+   /* @Test
     public void testPathToAccount() throws Exception {
         mockMvcContr.perform(get("/account"))
                 .andExpect(status().isOk())
@@ -146,7 +146,7 @@ public class AccountServiceTest {
 
         result.andExpect(MockMvcResultMatchers.view().name("account"));
         result.andExpect(MockMvcResultMatchers.model().attributeExists("oneAccount"));
-    }
+    }*/
 
 
 
