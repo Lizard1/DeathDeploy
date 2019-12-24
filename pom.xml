@@ -8,6 +8,10 @@
     <artifactId>Trans</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+    </properties>
+
     <packaging>war</packaging>
 
     <dependencies>
