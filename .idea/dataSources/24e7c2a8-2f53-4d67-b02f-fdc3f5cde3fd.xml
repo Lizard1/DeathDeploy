@@ -24,14 +24,14 @@
     <schema id="6" parent="1" name="performance_schema">
       <Collation>utf8mb4_0900_ai_ci</Collation>
     </schema>
-    <schema id="7" parent="1" name="students">
+    <schema id="7" parent="1" name="simpledb">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="statistic_user_role">
+      <Collation>utf8mb4_0900_ai_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="students">
       <Collation>utf8_general_ci</Collation>
-    </schema>
-    <schema id="8" parent="1" name="sys">
-      <Collation>utf8mb4_0900_ai_ci</Collation>
-    </schema>
-    <schema id="9" parent="1" name="test">
-      <Collation>utf8mb4_0900_ai_ci</Collation>
     </schema>
     <schema id="10" parent="1" name="testbase">
       <Collation>utf8mb4_0900_ai_ci</Collation>

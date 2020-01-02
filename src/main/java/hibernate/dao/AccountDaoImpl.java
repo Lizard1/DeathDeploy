@@ -12,12 +12,14 @@ import java.util.List;
 
 @Repository
 public class AccountDaoImpl implements AccountDao {
+
     private SessionFactory sessionFactory;
 
     @Autowired
     public void setSessionFactory(SessionFactory sessionFactory) {
         this.sessionFactory = sessionFactory;
     }
+
 
     @Override
     public List<Account> findAllAccounts() {
