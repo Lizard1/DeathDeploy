@@ -47,5 +47,8 @@ ${usersAc.userId}
 ${usersAc.accountNumber}
 ------------
 ${summOfAccs}
+
+<button onclick="merge()">Merge sort</button>
 </body>
+<script src="/res/jalgo.js"></script>
 </html>
