@@ -29,17 +29,6 @@ public class Connector {
     }
 
     /**Геттеры*/
-    public static String getURL() {
-        return URL;
-    }
-
-    public static String getUSERNAME() {
-        return USERNAME;
-    }
-
-    public static String getPASSWORD() {
-        return PASSWORD;
-    }
 
     public Connection getConnection() {
         return connection;

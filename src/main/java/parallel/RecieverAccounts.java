@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class RecieverAccounts implements Runnable{
-    private Connector connector;
+    private Connector connector =  new Connector();
     private String query;
     private int count;
 
@@ -17,7 +17,6 @@ public class RecieverAccounts implements Runnable{
 
    synchronized public AccSimple findById(int id) {
         AccSimple account = new AccSimple();
-        connector = new Connector();
         query = "SELECT * FROM account WHERE userid =" + id;
 
         try (Connection connection = connector.getConnection();
