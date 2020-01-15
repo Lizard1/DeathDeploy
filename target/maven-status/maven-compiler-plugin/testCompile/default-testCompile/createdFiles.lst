@@ -1,0 +1,3 @@
+hibernate\config\JpaTestConfig.class
+hibernate\service\serv\AccountServiceTest.class
+hibernate\config\TestConfig.class

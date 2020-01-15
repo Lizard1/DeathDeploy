@@ -1,0 +1,25 @@
+use thebankslist;
+
+INSERT usr(name, surname) VALUES
+('Sergey', 'Mihailovich'),
+('Petr', 'Abramovich'),
+('Lena', 'Davidovna'),
+('Galya', 'Sergeevna'),
+('Vera', 'Genadievna'),
+('Liza', 'Alexandrovna'),
+('Dmitriy', 'Abramovich'),
+('Evgen', 'Olegovich'),
+('Stas', 'Yrievich'),
+('Yriy', 'Mihailovich');
+
+INSERT account(accountNumber, userId) VALUES
+('123', '1'),
+('223', '2'),
+('323', '3'),
+('423', '4'),
+('523', '5'),
+('623', '6'),
+('723', '7'),
+('823', '8'),
+('923', '9'),
+('1023', '10');

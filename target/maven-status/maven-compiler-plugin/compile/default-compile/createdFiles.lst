@@ -1,0 +1,15 @@
+hibernate\config\WebConfig.class
+hibernate\dao\UserDaoImpl.class
+hibernate\dao\serv\AccountDao.class
+hibernate\controller\UserController.class
+hibernate\config\HibernateConfig.class
+hibernate\dao\serv\UserDao.class
+hibernate\service\serv\AccountService.class
+hibernate\config\AppInitializer.class
+hibernate\dao\AccountDaoImpl.class
+hibernate\service\UserServiceImpl.class
+hibernate\service\serv\UserService.class
+hibernate\model\User.class
+hibernate\service\AccountServiceImpl.class
+hibernate\controller\AccountController.class
+hibernate\model\Account.class

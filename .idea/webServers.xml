@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="64429d68-c819-42c1-9a9f-4fece123b250" name="HerokuServer" url="https://localhost">
+        <fileTransfer port="0" mountedRoot="D:\WorkerDirectory\Incubator\Trans" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
