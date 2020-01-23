@@ -1,4 +1,4 @@
-var array2 = [5, 1, 9, 7, 22, 3, 54, 11, 87, 29];
+var array2 = [87, 5, 1, 29, 9, 7, 22, 3, 54, 11, 23, 2];
 i = 1;
 
 function InsertionSort() {

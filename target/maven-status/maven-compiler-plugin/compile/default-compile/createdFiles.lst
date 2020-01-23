@@ -1,5 +1,6 @@
 hibernate\config\WebConfig.class
 hibernate\dao\UserDaoImpl.class
+parallel\AccSimple.class
 hibernate\dao\serv\AccountDao.class
 hibernate\controller\UserController.class
 hibernate\config\HibernateConfig.class
@@ -11,5 +12,8 @@ hibernate\service\UserServiceImpl.class
 hibernate\service\serv\UserService.class
 hibernate\model\User.class
 hibernate\service\AccountServiceImpl.class
+parallel\Connector.class
 hibernate\controller\AccountController.class
 hibernate\model\Account.class
+parallel\RecieverAccounts.class
+parallel\Main.class
